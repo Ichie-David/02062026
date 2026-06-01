@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PIN SCREEN -->
+
+    <section id="lockScreen" class="screen active">
+
+        <div class="glass-card">
+
+            <h1>Happy Birthday, Sugarmommy ❤️</h1>
+
+            <p>Only one person knows the key.</p>
+
+            <input type="password" id="passwordInput" placeholder="Enter PIN">
+
+            <button id="unlockBtn">
+                Unlock
+            </button>
+
+            <small id="message"></small>
+
+        </div>
+
+    </section>
+
+    <!-- ENVELOPE SCREEN -->
+
+    <section id="envelopeScreen" class="screen">
+
+        <div class="cinema-envelope">
+
+            <div class="env-stage" id="envStage">
+
+                <div class="env-back"></div>
+
+                <div class="env-front"></div>
+
+                <div class="env-letter" id="envLetter">
+                    <h3>❤️ A letter for you ❤️</h3>
+                </div>
+
+            </div>
+
+            <button id="openLetterBtn">
+                Open Letter
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- LETTER SCREEN -->
+
+    <section id="letterScreen" class="screen">
+
+        <div class="story-page">
+
+            <!-- Birthday Message -->
+
+            <section class="story-section reveal">
+
+                <h2 class="typewriter">Happy Birthday ❤️</h2>
+
+                <p class="typewriter-delay">
+                    Today is about celebrating you.
+                </p>
+
+                <p>
+                    Your kindness, your smile, your strength,
+                    and the countless little ways you've made life brighter for me and everyone around you.
+                </p>
+
+                <p>
+                    I couldn't let today pass without wishing you
+                    a truly beautiful birthday and since I can't be there in person, I wanted to send you this letter
+                    instead (<i>"i guess the intentions matter" in Titi's voice</i>).
+                </p>
+
+            </section>
+
+            <!-- Memory Snippets -->
+
+            <section class="story-section reveal">
+
+                <h2>Little Things I Remember</h2>
+
+                <div class="polaroid-grid">
+
+                    <div class="polaroid">
+                        <img src="./Resorces/img/Big Smile.jpg" />
+                        <p>Your laugh</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="Resorces/img/goofy ass.JPG" />
+                        <p>Our moments</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="./Resorces/img/RDT.JPG" />
+                        <p>Random days together</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="./Resorces/img/Snapchat-370232107.jpg" />
+                        <p>Memories that stayed</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Honest Message -->
+
+            <section class="story-section reveal">
+
+                <h2>A Few Honest Words - Hopefully not too extra</h2>
+
+                <p>
+                    Life has taken us through different seasons.
+                </p>
+
+                <p>
+                    But if there's one thing I still wanted you to know,
+                    it's that I continue to care about you deeply and appreciate you genuinely for everything which
+                    includes your unique spirit and the joy you bring to those around you which has taught, shown and
+                    helped me to be better in everyway.
+                </p>
+
+                <p>
+                    With patience.
+                    With respect.
+                    And with gratitude for every memory we've shared.
+                </p>
+
+            </section>
+
+            <!-- Final Wish -->
+
+            <section class="story-section reveal">
+
+                <h2>For Today</h2>
+
+                <p>
+                    I hope you smile today infact allthrough the day.
+                </p>
+
+                <p>
+                    I hope you're surrounded by warmth,
+                    kindness, and people who appreciate you (<i> i trust aunty kk and her husband sha>>>> </i>).
+                </p>
+
+                <p>
+                    And above all,
+                    I hope this year brings you happiness.
+                </p>
+
+            </section>
+
+            <!-- Memory Box -->
+
+            <section class="story-section reveal">
+
+                <div class="memory-box">
+
+                    <h2>Before You Go...</h2>
+
+                    <p>
+                        I kept a small collection of moments.
+                    </p>
+
+                    <p>
+                        There's no obligation to open it.
+                    </p>
+
+                    <p>
+                        But if you're curious,
+                        it's waiting for you.
+                    </p>
+
+                    <a href="memory-box.html" class="memory-btn">
+                        Open Memory Box
+                    </a>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </section>
+
+    <div class="particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="lightbox">
+        <span id="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" style="display:none;" />
+        <video id="lightbox-video" src="" controls playsinline style="display:none;"></video>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
